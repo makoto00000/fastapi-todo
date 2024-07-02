@@ -32,3 +32,16 @@ docker-compose run --entrypoint "poetry install --no-root" todo-app
 ```shell
 docker-compose build --no-chache
 ```
+
+### 4. API立ち上げ
+
+`__init__.py`,`main.py`を作成
+
+```shell
+docker-compose up
+```
+
+### 5. アクセス
+
+- ドキュメント:<http://localhost:8000/docs>
+- エンドポイント:<http://localhost:8000/hello>
